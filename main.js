@@ -1,11 +1,15 @@
-var prices = [33, 26, 99, 120, 12, 45];
+var nums = [33, 26, 99, 120, 12, 45];
 var sum = 0;
 
-function getSum(total, num) {
-  return total + num;
-}
-console.log("The sum is:", sum);
+for(var i=0; i < nums.length; i++){
 
+  sum += parseInt(nums[i]);
+
+}
+
+alert(sum);
+
+alert(sum);
 
 for (let i = 99; i >= 1; i--) {
   if (i !== 1) { //if ((i-1) === 1)
